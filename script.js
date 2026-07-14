@@ -7,8 +7,12 @@ function makeGrid(squareAmount){
         for(let j = 0; j < squareAmount; j++){
             const cell = document.createElement('div');
             row.appendChild(cell);
-        }
-    }
-}
+
+            cell.addEventListener('mouseover', (e) => {
+                e.target.style.backgroundColor = "red";
+            });
+        };
+    };
+};
 
 makeGrid(16);
