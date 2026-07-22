@@ -4,7 +4,7 @@
   height: 700px;
   border: 1px solid black;
   justify-self: center;
-  margin-top: 100px;
+  margin-top: 20px;
   flex-direction: column;
 }
 
@@ -16,4 +16,11 @@
 #gridContainer > div > div{
   border: 0.5px solid black;
   flex: 1;
+}
+
+#layoutButton {
+  display: flex;
+  justify-self: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
