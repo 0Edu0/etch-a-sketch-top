@@ -18,9 +18,17 @@
   flex: 1;
 }
 
-#layoutButton {
+#buttons {
   display: flex;
   justify-self: center;
   margin-top: 20px;
   margin-bottom: 0px;
+}
+
+#layoutButton, #clearButton{
+  justify-items: center;
+}
+
+#clearButton {
+  margin-left: 20px;
 }
